@@ -1,0 +1,19 @@
+button:hover{
+    color:#0062ff;
+    border:#0062ff solid 1px;
+    background: #ffff99;
+}
+/* CSS Fade-in Effect on Hover */
+button{
+    opacity: 0.5;
+}
+button:hover{
+    opacity: 1;
+}
+
+/* CSS Grow-in Effect on Hover */
+button:hover{
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+}
